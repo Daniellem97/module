@@ -7,6 +7,7 @@ variable "instance_type" {
 }
 
 
+
 variable "ami" {
   description = "Amazon Machine Image ID"
   type        = string
