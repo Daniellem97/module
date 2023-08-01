@@ -6,6 +6,7 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
+
 variable "ami" {
   description = "Amazon Machine Image ID"
   type        = string
